@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>كاش بوينت | صفحة تعريفية</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+	:root{ --brand:#FF7E29; --dark:#0e0f11; --ink:#1a1a1a; --muted:#8b9099; --b:#eceff3; --radius:14px;
+}
+*{box-sizing:border-box} html,body{margin:0}
+body{font-family:"Cairo",system-ui; color:var(--ink); line-height:1.9; background:#fff}
+.container{max-width:1050px; margin:auto; padding:0 20px}
+
+/* Header (شفاف فوق الهيرو) */
+header{
+  position:fixed; top:0; inset-inline:0; z-index:50;
+  background:linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,0));
+  color:#fff;
+}
+.nav{height:68px; display:flex; align-items:center; justify-content:space-between; gap:12px}
+.brand{display:flex; align-items:center; gap:10px; font-weight:800}
+.brand img{height:34px; width:auto; filter:drop-shadow(0 2px 6px rgba(0,0,0,.35))}
+.nav a{color:#e5e7eb; text-decoration:none; font-weight:600}
+.nav a:hover{color:var(--brand)}
+
+/* Hero */
+.hero{
+  min-height:82vh; display:grid; place-items:center; position:relative; color:#fff; text-align:center;
+  background:url("file:///C|/Users/fofoo/OneDrive/الصور/assets/hero-bg.jpg") center/cover no-repeat fixed;
+}
+.hero::after{
+  content:""; position:absolute; inset:0;
+  background:linear-gradient(180deg,rgba(10,11,12,.75),rgba(10,11,12,.55));
+}
+.hero .inner{position:relative; z-index:1; padding:92px 16px 40px}
+.hero h1{margin:10px 0 12px; font-size:36px}
+.hero p{color:#e5e7eb; max-width:800px; margin:0 auto 16px}
+.cta{display:inline-flex; gap:10px; margin-top:8px}
+.btn{display:inline-block; padding:11px 18px; border-radius:12px; font-weight:800; text-decoration:none}
+.btn-brand{background:var(--brand); color:#111}
+.btn-ghost{border:1px solid rgba(255,255,255,.35); color:#fff}
+
+/* Sections */
+section{padding:58px 0}
+h2{font-size:26px; margin:0 0 8px}
+.lead{color:#5b6070; margin-bottom:22px}
+.card{background:#fff; border:1px solid var(--b); border-radius:var(--radius); padding:18px}
+.grid-3{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
+.grid-2{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+
+/* Clients */
+.clients{display:grid; grid-template-columns:repeat(2,1fr); gap:12px}
+.client{height:96px; border:1px solid var(--b); border-radius:12px; display:grid; place-items:center; background:#fafafa; color:#777; font-weight:800}
+
+/* Contact + icons */
+.contact{display:flex; align-items:center; justify-content:space-between; gap:14px; flex-wrap:wrap}
+.social a{display:inline-flex; align-items:center; gap:6px; margin-inline-start:12px; color:#333; text-decoration:none}
+.icon{width:22px; height:22px}
+
+/* Footer */
+footer{padding:24px 0; border-top:1px solid var(--b); color:#838792; font-size:14px}
+#home {
+    background-image: url(file:///C|/Users/fofoo/OneDrive/%D8%A7%D9%84%D8%B5%D9%88%D8%B1/9ac183372d2822dadeef9bf4b65c1068.jpg);
+}
+.container.nav .menu a {
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.container.nav .menu a {
+    font-style: normal;
+    font-size: 16px;
+}
+.inner .cta .btn.btn-brand {
+}
+.inner .cta .btn.btn-brand {
+}
+#contact .card.contact .btn.btn-brand {
+    background-color: #FF7E29;
+}
+
+@media (max-width:900px){
+  .grid-3,.grid-2{grid-template-columns:1fr}
+  .hero h1{font-size:28px}
+body footer {
+}
+body footer {
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(87,0,0,0.75) 39.90%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(87,0,0,0.75) 39.90%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(87,0,0,0.75) 39.90%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(87,0,0,0.75) 39.90%);
+    background-color: #3B1A00;
+}
+.inner .cta .btn.btn-brand {
+    background-color: #3B1A00;
+}
+}
+	</style>
+</head>
+
+<body>
+	<header>
+  <div class="container nav">
+    <div class="brand">
+      <img src= "../OneDrive/Unnamed Site 7/pg-IqGmz_400x400.jpg">
+      <div>كاش بوينت</div>
+    </div>
+    <nav class="menu">
+      <a href="#about">من نحن</a>
+      <a href="#services">الخدمات</a>
+      <a href="#contact">تواصل</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="home" aria-label="Cash Point">
+  <div class="inner">
+    <h1>كاش بوينت، شركة سعودية تجمع بين التقنية والإبداع لتقديم حلول تسويقية ذكية تدعم نمو العلامات التجارية</h1>
+    <p>صفحة تعريفيّة مبسطة تُظهر من نحن وخدماتنا وأبرز العملاء مع وسائل تواصل مباشرة.</p>
+    <div class="cta">
+      <a class="btn btn-brand" href="#about">تعرّف علينا</a>
+      <a class="btn btn-ghost" href="#services">خدماتنا</a>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="container">
+  <h2>الخدمات</h2>
+  <div class="grid-3">
+    <div class="card"><strong>1- أنظمة نقاط البيع (POS)</strong><br>تهيئة وربط وتتبع فوري للأداء مع لوحات تحكم سهلة.</div>
+	 <div class="card"><strong>2- إنشاء وتصميم المتاجر الإلكترونية</strong><br>متاجر سريعة ومتجاوبة، متصلة بالدفع والشحن.</div>
+    <div class="card"><strong>3- التسويق الرقمي وإدارة المحتوى</strong><br>استراتيجية وهوية، إنتاج محتوى وجدولة نشر، وقياس نتائج.</div>
+    <div class="card"><strong>4- تطوير التطبيقات والأنظمة</strong><br>واجهات حديثة وتكاملات API تدعم النمو.</div>
+    <div class="card"><strong>5- الاستشارات التقنية</strong><br>تقييم حالي، خارطة طريق، وتحسين عملياتك رقمياً.</div>
+  </div>
+</section>
+
+<section id="about" class="container">
+  <h2>من نحن</h2>
+  <div class="card">
+    <p><strong>شريكك الرقمي نحو التحوّل الذكي.</strong><br>
+      كاش بوينت هي شركة سعودية متخصصة في تقديم الحلول التقنية والتسويقية الحديثة.</p>
+    <div class="grid-2">
+      <div>
+        <h3 style="margin:6px 0">رؤيتنا</h3>
+        <p>أن نكون الخيار الأول في المملكة لتقنيات نقاط البيع والتحول الرقمي.</p>
+      </div>
+      <div>
+        <h3 style="margin:6px 0">رسالتنا</h3>
+        <p>تقديم حلول تقنية مبتكرة تُسهّل العمل وتُعزز نمو العملاء بثقة واستدامة.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="team" class="container">
+  <h2>خدمة الفريق وإنجازه</h2>
+  <div class="card">
+    يقف خلف كاش بوينت فريق سعودي شغوف يمتلك خبرة حقيقية في التقنية والتسويق،
+    نفّذ عشرات المشاريع لعلامات تجارية ناجحة، وواصل الابتكار لتحقيق أفضل النتائج لعملائنا.
+  </div>
+</section>
+
+<section id="clients" class="container">
+  <h2>عملاؤنا</h2>
+  <div class="clients">
+    <img src="file:///C|/Users/fofoo/OneDrive/الصور/--removebg-preview.png" width="200" height="180" alt=""/>
+	  <img src="file:///C|/Users/fofoo/OneDrive/الصور/6015033056336922598_121.jpg" width="300" height="250
+																 " alt=""/>
+	</div>
+</section>
+
+<section id="contact" class="container">
+  <h2>تواصل معنا</h2>
+  <div class="card contact">
+    <div><strong>رقم الجوال:</strong> <a href="tel:0538222090">0538222090</a></div>
+    <div class="social">
+      <!-- Instagram -->
+      <a href="#" title="Instagram">
+        <svg class="icon" viewBox="0 0 24 24" fill="none">
+          <rect x="3" y="3" width="18" height="18" rx="5" stroke="#f7921e" stroke-width="2"></rect>
+          <circle cx="12" cy="12" r="3.5" stroke="#f7921e" stroke-width="2"></circle>
+          <circle cx="17.5" cy="6.5" r="1" fill="#f7921e"></circle>
+        </svg>   <a href="https://www.instagram.com/cashpointksa21/?igsh=dWR5YTFlMHdpMzR5#">إنستغرام</a>
+      </a>
+      <!-- TikTok -->
+      <a href="#" title="TikTok">
+        <svg class="icon" viewBox="0 0 24 24" fill="none">
+          <path d="M14 3c.6 2.8 2.2 4.6 5 5v3.2c-1.9.1-3.5-.5-5-1.6v5.9a6.5 6.5 0 1 1-5-6.3v3.4a3.2 3.2 0 1 0 2 3V3h3z" fill="#f7921e"/>
+        </svg>  <a href="https://www.tiktok.com/@cashpointksa21?_t=ZS-90YyAHrwRRw&_r=1">تيك توك</a>
+      </a>
+      <!-- WhatsApp -->
+      <a href="https://wa.me/966501115597" target="_blank" rel="noopener" title="WhatsApp">
+        <svg class="icon" viewBox="0 0 24 24" fill="none">
+          <path d="M20 11.5A8.5 8.5 0 0 1 11.5 20c-1.5 0-2.9-.4-4.1-1l-3.4 1 1.1-3.3A8.4 8.4 0 0 1 3 11.5 8.5 8.5 0 1 1 20 11.5Z" stroke="#25D366" stroke-width="1.6"/>
+          <path d="M8.8 9.1c0-.2.1-.4.2-.5l.7-.7c.2-.2.5-.2.7 0l1 .9c.2.2.3.5.2.8l-.3.8c0 .1 0 .3.2.4l1.9 1.9c.1.1.3.2.4.2l.8-.3c.3-.1.6 0 .8.2l.9 1a.6.6 0 0 1 0 .7l-.7.7c-.1.1-.3.2-.5.2-2.2.2-4.4-.6-6-2.2a7 7 0 0 1-2.3-5Z" fill="#25D366"/>
+        </svg>  <a href="https://api.whatsapp.com/send/?phone=966538222090&text&type=phone_number&app_absent=0">واتساب</a>
+      </a>
+    </div>
+    <a class="btn btn-brand" href="tel:">اتصل الآن</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container" style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap">
+    <div>© 2025 كاش بوينت — جميع الحقوق محفوظة</div>
+  </div>
+</footer>
+</body>
+</html>
